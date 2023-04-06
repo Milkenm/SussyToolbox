@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.DirectoryServices.AccountManagement" Version="7.0.0" />
+    <PackageReference Include="System.Management" Version="8.0.0-preview.2.23128.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ScriptsLib\ScriptsLibV2\ScriptsLibV2.csproj" />
+  </ItemGroup>
+
+</Project>
